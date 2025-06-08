@@ -1,0 +1,50 @@
+
+<html><head>
+  <title>Validation form</title>
+</head>
+<body>
+<link rel="stylesheet" href="style.css">
+
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form id="form">
+      <label>
+        Name:
+        <input type="text" id="name">
+        <span class="error" id="nameError"></span>
+      </label>
+
+      <label>
+        Email:
+        <input type="text" id="email">
+        <span class="error" id="emailError"></span>
+      </label>
+
+      <label>
+        Password:
+        <input type="password" id="password">
+        <span class="error" id="passwordError"></span>
+      </label>
+
+      <button type="submit" id="submitBtn">Submit</button>
+    </form>
+  </div>
+
+  <br>
+
+  <div class="container">
+    <h2>Message Box</h2>
+    
+    <textarea id="message" rows="5" placeholder="Type your message"></textarea>
+    <div class="char-counter">
+      <span id="counter">0/200</span>
+      <br>
+      <span id="warning"></span>
+    </div>
+  </div>
+
+<script src="form.js"></script>
+
+
+
+</body></html>
